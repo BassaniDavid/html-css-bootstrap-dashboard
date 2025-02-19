@@ -58,7 +58,33 @@
         <div class="container">
             <h2 class="my-4">Nuovo Libro</h2>
 
+            <form>
+                <!-- nome e cognome -->
+                <div class="row">
+                    <div class="col-6 mb-3">
+                        <label for="nome-autore" class="form-label">Nome Autore</label>
+                        <input type="text" class="form-control" id="nome-autore" placeholder="Inserisci il nome dell'autore">
+                    </div>
+                    <div class="col-6 mb-3">
+                        <label for="cognome-autore" class="form-label">Cognome Autore</label>
+                        <input type="text" class="form-control" id="cognome-autore" placeholder="Inserisci il cognome dell'autore">
+                    </div>
+                </div>
+                <!-- titolo -->
+                <div class="mb-4">
+                    <label for="titolo" class="form-label">Titolo</label>
+                    <input type="text" class="form-control" id="titolo" placeholder="Inserisci il titolo del libro" aria-describedby="titolHelp">
+                    <div id="titolHelp" class="form-text">Titolo versione italiana</div>
+                </div>
+                <!-- genere -->
+                <select class="form-select">
+                    <option selected>Scegli il genere</option>
+                    <option value="1">Fantasy</option>
+                    <option value="2">Storico</option>
+                    <option value="3">giallo</option>
+                  </select>
 
+            </form>
         </div>
     </main>
 </body>
