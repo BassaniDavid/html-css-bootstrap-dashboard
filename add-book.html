@@ -63,26 +63,44 @@
                 <div class="row">
                     <div class="col-6 mb-3">
                         <label for="nome-autore" class="form-label">Nome Autore</label>
-                        <input type="text" class="form-control" id="nome-autore" placeholder="Inserisci il nome dell'autore">
+                        <input type="text" class="form-control" id="nome-autore"
+                            placeholder="Inserisci il nome dell'autore">
                     </div>
                     <div class="col-6 mb-3">
                         <label for="cognome-autore" class="form-label">Cognome Autore</label>
-                        <input type="text" class="form-control" id="cognome-autore" placeholder="Inserisci il cognome dell'autore">
+                        <input type="text" class="form-control" id="cognome-autore"
+                            placeholder="Inserisci il cognome dell'autore">
                     </div>
                 </div>
                 <!-- titolo -->
                 <div class="mb-4">
                     <label for="titolo" class="form-label">Titolo</label>
-                    <input type="text" class="form-control" id="titolo" placeholder="Inserisci il titolo del libro" aria-describedby="titolHelp">
+                    <input type="text" class="form-control" id="titolo" placeholder="Inserisci il titolo del libro"
+                        aria-describedby="titolHelp">
                     <div id="titolHelp" class="form-text">Titolo versione italiana</div>
                 </div>
                 <!-- genere -->
-                <select class="form-select">
+                <select class="mb-3 form-select">
                     <option selected>Scegli il genere</option>
                     <option value="1">Fantasy</option>
                     <option value="2">Storico</option>
                     <option value="3">giallo</option>
-                  </select>
+                </select>
+                <!-- anno pubblicazione -->
+                <div class="mb-3">
+                    <label for="anno-pubblicazione" class="form-label">anno di pubblicazione</label>
+                    <input type="number" class="form-control" id="anno-pubblicazione" placeholder="Inserisci l'anno">
+                </div>
+                <!-- ISBN -->
+                <div class="mb-5">
+                    <label for="ISBN" class="form-label">ISBN#</label>
+                    <input type="text" class="form-control" id="ISBN" placeholder="Inserisci il codice ISBN#">
+                </div>
+
+                <hr class="mb-4">
+
+                <!-- note -->
+
 
             </form>
         </div>
